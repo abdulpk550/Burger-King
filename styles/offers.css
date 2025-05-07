@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: flamebold;
+    src: url("./assets/fonts/FlameBold.otf");
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+    /* background-color: aqua; */
+}
+
+
+.fa-bars {
+    color: rgb(80, 35, 20);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    color: rgb(80, 35, 20);
+    font-family: "anton", sans-serif;
+    /* font-size: 1.75rem; */
+    cursor: pointer;
+}
+
+.fa-user {
+    color: rgb(80, 35, 20);
+    font-size: 18px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.cart-btn {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: gray;
+    font-family: "anton";
+    font-weight: lighter;
+    font-size: 14px;
+    border: 1px solid;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.bottom {
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    bottom: 0px;
+    background-color: white;
+    box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(80, 35, 20);
+    font-family: "anton", serif;
+
+
+}
+
+.menu p {
+    cursor: pointer;
+    font-size: 13px;
+}
+.menu-icon{
+    margin: 0px 10px;
+}
+
+@media(max-width: 600px) {
+    .cart-btn {
+        display: none;
+    }
+    .footer-para{
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+}
