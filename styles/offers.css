@@ -88,6 +88,42 @@ h1 {
     margin: 0px 10px;
 }
 
+.city-ad{
+    width: 100%;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 60px;
+    background-color: white;
+}
+
+.address{
+   
+    height: 45px;
+   
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px 20px; */
+   
+}
+.ad-head{
+    color:rgb(80, 35, 20) ;
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+.drive-thru{
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+.fa-arrow-right{
+    font-size: 20px;
+    color:rgb(80, 35, 20) ;
+}
+
 @media(max-width: 600px) {
     .cart-btn {
         display: none;

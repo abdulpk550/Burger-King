@@ -259,6 +259,10 @@ footer {
     cursor: pointer;
     font-size: 13px;
 }
+.bottom-bar{
+    text-decoration: none;
+    color: rgb(80, 35, 20);
+}
 .menu-icon{
     margin: 0px 10px;
 }
