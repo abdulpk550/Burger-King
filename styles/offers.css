@@ -123,6 +123,45 @@ h1 {
     font-size: 20px;
     color:rgb(80, 35, 20) ;
 }
+.offers{
+    /* max-width: 20%; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.offer-section{
+    max-width: 30%;
+    margin: auto;
+
+}
+.offer-img{
+    width: 100px;
+}
+.offer-heading{
+    color:rgb(80, 35, 20) ;
+    font-family: "anton";
+    font: lighter;
+    font-size: 20px;
+}
+.offer-para{
+    color: rgb(80, 35, 20);
+    margin: 10px 0px;
+    font-family: serif;
+    font-size: 17px;
+}
+@media(max-width : 880px){
+    .offer-section{
+        max-width: 90%;
+    }
+    .offers{
+        max-width: 70%;
+        justify-content: center;
+    }
+}
 
 @media(max-width: 600px) {
     .cart-btn {
@@ -131,5 +170,12 @@ h1 {
     .footer-para{
         font-size: 14px;
         padding: 0px 10px;
+    }
+    .offer-section{
+        max-width: 100%;
+    }
+     .offers{
+        max-width: 100%%;
+        justify-content: center;
     }
 }
