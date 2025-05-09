@@ -145,13 +145,13 @@ h1 {
     color:rgb(80, 35, 20) ;
     font-family: "anton";
     font: lighter;
-    font-size: 20px;
+    font-size: 17px;
 }
 .offer-para{
     color: rgb(80, 35, 20);
     margin: 10px 0px;
     font-family: serif;
-    font-size: 17px;
+    font-size: 14px;
 }
 @media(max-width : 880px){
     .offer-section{
